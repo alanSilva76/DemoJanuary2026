@@ -2,18 +2,30 @@ body {
   margin: 0;
 }
 
-.page-header {
-  background-color: #eee;
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  gap:1rem;
+  padding: 0;
+  
 }
-
-.hero-wrapper {
-
+.nav-list a {
+  color: green;
+    
 }
 
 .hero-image {
-object-fit: cover;
-width: 100%;
-height: 45vh;
-object-position: center bottom;
+  object-fit: cover;
+  width: 100%;
+  height: 45vh;
+  object-position: center bottom;
+  
+}
 
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #eee;
 }
